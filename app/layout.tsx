@@ -5,6 +5,7 @@ import { SITE_URL } from "@/lib/constants";
 import { site } from "@/lib/site";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { Analytics } from "@/components/analytics/Analytics";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { organizationSchema, websiteSchema } from "@/lib/schema";
 
@@ -83,6 +84,7 @@ export default function RootLayout({
   return (
     <html lang="sr" className={`${inter.variable} ${manrope.variable}`}>
       <body>
+        <Analytics />
         <JsonLd data={organizationSchema()} />
         <JsonLd data={websiteSchema()} />
         <a

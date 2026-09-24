@@ -4,6 +4,7 @@ import { useState } from "react";
 import { services } from "@/lib/services";
 import { Icon } from "@/components/ui/Icon";
 import { cn } from "@/lib/utils";
+import { trackEvent } from "@/components/analytics/Analytics";
 
 type Status = "idle" | "sending" | "ok" | "error";
 
@@ -44,6 +45,11 @@ export function ContactForm({ defaultService }: { defaultService?: string }) {
         setError(json.error || "Došlo je do greške. Pokušajte ponovo.");
         return;
       }
+      trackEvent("form_submit", {
+        form_name: "kontakt",
+        service: payload.service,
+        page_location: window.location.pathname,
+      });
       setStatus("ok");
       form.reset();
     } catch {
