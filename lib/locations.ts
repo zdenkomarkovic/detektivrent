@@ -710,6 +710,45 @@ export const locations: Location[] = [
   },
 
   {
+    slug: "pirot",
+    name: "Pirot",
+    inLoc: "u Pirotu",
+    ofCity: "Pirota",
+    region: "Pirotski okrug",
+    distanceKm: 310,
+    courts: "Osnovni sud u Pirotu, Viši sud u Pirotu",
+    highlightServices: [
+      "porodicne-i-partnerske-istrage",
+      "pracenje-i-opservacija",
+      "poslovne-istrage-i-provere",
+      "potraga-za-nestalim-licima",
+    ],
+    intro: [
+      "Pirot je centar Pirotskog okruga, na koridoru Niš–Sofija, nadomak granice sa Bugarskom. Grad ima razvijenu industriju i trgovinu, a mnogo porodica ima članove koji rade ili žive u inostranstvu, što stvara specifične potrebe za diskretnom proverom.",
+      "Najčešći razlozi angažovanja iz Pirota su provera neverstva i bračnih prevara, porodični sporovi, poslovne provere partnera i pronalaženje osoba sa kojima je prekinut kontakt.",
+    ],
+    coverage: [
+      "Grad pokrivamo od centra i Tijabare do prigradskih naselja, kao i duž puta ka Nišu, Babušnici i graničnom prelazu. Za praćenje na otvorenom terenu i regionalnim putevima koristimo tim sa više vozila i rotaciju.",
+      "Iz Pirota radimo ceo Pirotski okrug – Dimitrovgrad, Babušnicu i Belu Palanku, a po potrebi i susedne okruge.",
+    ],
+    nearby: ["Dimitrovgrad", "Babušnica", "Bela Palanka"],
+    faqs: [
+      {
+        q: "Da li je istraga u Pirotu skuplja zbog udaljenosti od Beograda?",
+        a: "Pirot je oko 310 km od Beograda, a putni trošak određujemo unapred i iskazujemo transparentno. Prema potrebi angažujemo tim iz Niša, čime se trošak smanjuje.",
+      },
+      {
+        q: "Pokrivate li Dimitrovgrad i Babušnicu?",
+        a: "Da, ta mesta i ceo Pirotski okrug radimo iz pirotskog tima.",
+      },
+      {
+        q: "Radite li slučajeve bračnih prevara u Pirotu?",
+        a: "Da, provera neverstva i prikupljanje dokaza za razvod jedan su od najčešćih razloga angažovanja i u Pirotu, uz punu diskreciju.",
+      },
+    ],
+  },
+
+  {
     slug: "sremska-mitrovica",
     name: "Sremska Mitrovica",
     inLoc: "u Sremskoj Mitrovici",

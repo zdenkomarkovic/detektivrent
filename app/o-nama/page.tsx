@@ -9,7 +9,7 @@ import { CtaBand } from "@/components/sections/CtaBand";
 export const metadata = pageMeta({
   title: "O nama — detektivska agencija Marinković",
   description:
-    "Ko je privatni detektiv Marinković, kako radimo i zašto nam klijenti veruju najosetljivije slučajeve. Licenca, iskustvo, diskrecija i zakonit pristup istrazi.",
+    "Privatni detektiv Marinković: 25+ godina iskustva u bezbednosnim i istražnim poslovima, bračne prevare, poslovne istrage i OSINT. Licenca, diskrecija i zakonit pristup.",
   path: "/o-nama",
 });
 
@@ -46,10 +46,10 @@ export default function ONamaPage() {
             Detektivska agencija koja radi tiho, a govori činjenicama
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-white/75">
-            Agenciju vodi privatni detektiv Marinković, sa dugogodišnjim
-            iskustvom u istragama neverstva, porodičnim sporovima i poslovnim
-            proverama. Radimo na celoj teritoriji Srbije, a po dogovoru i u
-            regionu.
+            Agenciju vodi privatni detektiv Marinković, sa više od 25 godina
+            iskustva u ozbiljnim bezbednosnim i istražnim poslovima – od
+            istraga bračnih prevara i porodičnih sporova do poslovnih provera.
+            Radimo na celoj teritoriji Srbije, a po dogovoru i u regionu.
           </p>
         </Container>
       </section>
@@ -71,6 +71,41 @@ export default function ONamaPage() {
               kontra-nadzor i podrška advokatskim kancelarijama redovan su deo
               posla. Ali svaki slučaj, bez obzira na veličinu, dobija istu pažnju
               i istu diskreciju.
+            </p>
+
+            <h2>Preko 25 godina iskustva u bezbednosnim poslovima</h2>
+            <p>
+              Detektiv Marinković je istražitelj i obaveštajni profesionalac sa
+              dugogodišnjim operativnim iskustvom u kriminalističkim istragama,
+              obaveštajnoj analizi, istragama organizovanog kriminala i
+              strateškim bezbednosnim poslovima. Kao nekadašnji visoki
+              funkcioner Ministarstva unutrašnjih poslova Republike Srbije
+              vodio je složene istrage, koordinaciju obaveštajnog rada,
+              operativno planiranje i analitički menadžment.
+            </p>
+            <p>
+              Taj profesionalni nivo prenosimo i na svakodnevni rad za
+              privatne klijente. Isti metod – planiranje, disciplinovano
+              praćenje, analiza i dokumentovanje – koristi se kada proveravamo
+              sumnju u bračnu prevaru, kao i kada radimo složene poslovne
+              istrage za firme i advokatske kancelarije. Rezultat je
+              preciznost, diskrecija i izveštaj koji je razumljiv i upotrebljiv.
+            </p>
+            <p>Posebne oblasti rada:</p>
+            <ul>
+              <li>Bračne prevare, provera neverstva i porodične istrage</li>
+              <li>Korporativne i interne istrage</li>
+              <li>Istrage prevara i finansijskih zloupotreba</li>
+              <li>OSINT i obaveštajna analiza</li>
+              <li>Due diligence i provera biografije (background provere)</li>
+              <li>Otkrivanje skrivenih poslovnih veza i mreža</li>
+              <li>Istrage povrede intelektualne svojine</li>
+              <li>Koordinacija praćenja i operativna podrška</li>
+              <li>Strateška procena rizika</li>
+            </ul>
+            <p>
+              Za domaće i međunarodne klijente dostupni smo za saradnju u
+              osetljivim slučajevima visokog rizika.
             </p>
 
             <h2>Kako pristupamo svakom slučaju</h2>

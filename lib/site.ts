@@ -8,7 +8,7 @@ export const site = {
   // Kratki slogan koji se pojavljuje u hero sekciji i meta opisima
   tagline: "Privatni detektiv za bračne prevare, porodične i poslovne istrage",
   description:
-    "Licencirani privatni detektiv Marinković. Diskretne istrage bračnih prevara i neverstva, praćenje i opservacija lica, poligrafsko testiranje, poslovne provere i digitalna forenzika. Rad za fizička i pravna lica u celoj Srbiji.",
+    "Licencirani privatni detektiv Marinković sa 25+ godina iskustva u bezbednosnim i istražnim poslovima. Diskretne istrage bračnih prevara i neverstva, praćenje i opservacija lica, poligrafsko testiranje, poslovne provere i digitalna forenzika. Rad za fizička i pravna lica u celoj Srbiji.",
 
   // ─── Kontakt (NAP – Name, Address, Phone) ──────────────────────────────────
   phoneHref: "+381648925000",

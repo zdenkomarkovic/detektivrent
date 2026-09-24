@@ -47,6 +47,9 @@ export interface Service {
   faqs: ServiceFaq[];
   /** slugovi povezanih usluga */
   related: string[];
+  /** Spoljni sajt partnera vezan za uslugu */
+  externalUrl?: string;
+  externalLabel?: string;
 }
 
 export const services: Service[] = [
@@ -810,6 +813,56 @@ export const services: Service[] = [
       },
     ],
     related: ["usluge-za-advokatske-kancelarije", "provere-podataka-iz-arhiva", "pracenje-i-opservacija"],
+  },
+
+  {
+    slug: "otisci-prstiju",
+    name: "Otisci prstiju i provera identiteta",
+    title: "Otisci prstiju – sertifikovano uzimanje otisaka i provera identiteta",
+    metaTitle: "Otisci prstiju | Sertifikovano otiskivanje i provera identiteta | Marinković",
+    metaDescription:
+      "Sertifikovano uzimanje otisaka prstiju za posao, putovanja, imigraciju i proveru kaznene evidencije, uz legalizaciju dokumenata i prevode. Usluga našeg partnera Fingerprint PLUS.",
+    summary:
+      "Sertifikovani otisci prstiju za posao, imigraciju i proveru evidencije – preko partnerskog servisa Fingerprint PLUS.",
+    icon: "searchPerson",
+    externalUrl: "https://fingerprint.plus/",
+    externalLabel: "Poseti Fingerprint PLUS",
+    intro: [
+      "Za zapošljavanje u inostranstvu, useljavanje, vize, dozvole za rad i proveru kaznene evidencije često se traže otisci prstiju koje je uzeo sertifikovani stručnjak, u formatu koji prihvataju strani organi. Greške u otiskivanju znače odbijene zahteve i izgubljeno vreme.",
+      "Ovu uslugu pružamo u saradnji sa Fingerprint PLUS, platformom sa sertifikovanim stručnjacima u Srbiji, Austriji, Sloveniji, Hrvatskoj i Bosni i Hercegovini. Osim standardnog otiskivanja, nude proveru pozadine, potvrdu identiteta, legalizaciju dokumenata i prevode, a po potrebi dolaze i na lokaciju klijenta.",
+    ],
+    when: [
+      "Potrebni su vam otisci prstiju za posao, vizu, boravak ili imigracioni postupak u drugoj zemlji",
+      "Tražite proveru kaznene evidencije ili proveru pozadine za sebe ili kandidata",
+      "Potrebna je potvrda identiteta ili legalizacija i prevod dokumenata",
+      "Želite uslugu na svojoj adresi ili u prostorijama firme, bez dolaska u poslovnicu",
+    ],
+    approach: [
+      "Otiskivanje sprovodi sertifikovani stručnjak, standardizovanom tehnikom i na obrascima koje zahtevaju nadležni organi, kako bi otisci bili prihvaćeni iz prvog pokušaja.",
+      "Za dodatne korake, kao što su legalizacija, prevod ili provera pozadine, Fingerprint PLUS vodi ceo postupak, a mi vam po potrebi pomažemo oko koordinacije.",
+    ],
+    deliverables: [
+      "Sertifikovani otisci prstiju u formatu koji zahteva nadležni organ",
+      "Provera pozadine i međunarodna provera kaznene evidencije",
+      "Potvrda identiteta",
+      "Legalizacija dokumenata i sudski prevodi",
+      "Mobilna usluga – dolazak na željenu lokaciju",
+    ],
+    faqs: [
+      {
+        q: "Ko pruža ovu uslugu?",
+        a: "Uslugu pruža partnerski servis Fingerprint PLUS (fingerprint.plus). Na njihovom sajtu možete pogledati detalje, uslove i zakazati termin.",
+      },
+      {
+        q: "Za koje svrhe se otisci prstiju najčešće traže?",
+        a: "Za zapošljavanje, putovanja i imigraciju, bezbednosne provere i međunarodne provere kaznene evidencije.",
+      },
+      {
+        q: "U kojim zemljama je usluga dostupna?",
+        a: "U Srbiji, Austriji, Sloveniji, Hrvatskoj i Bosni i Hercegovini.",
+      },
+    ],
+    related: ["provere-podataka-iz-arhiva", "poslovne-istrage-i-provere", "sluzenje-u-pravnim-procesima"],
   },
 ];
 

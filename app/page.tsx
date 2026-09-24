@@ -41,7 +41,7 @@ const IMG_VOZILO =
   "/privatni-detektiv-detektivska-agencija-master-5425647138007-71815723338.jpg";
 
 const stats = [
-  { value: "15+", label: "godina iskustva na terenu" },
+  { value: "25+", label: "godina iskustva u bezbednosnim i istražnim poslovima" },
   { value: "0–24h", label: "dostupnost, svakog dana" },
   { value: "100%", label: "poverljivost slučaja" },
   { value: "17", label: "specijalizovanih usluga" },

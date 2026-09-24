@@ -148,6 +148,20 @@ export default async function ServicePage({
               </ul>
             </div>
 
+            {service.externalUrl && (
+              <div className="mt-10">
+                <a
+                  href={service.externalUrl}
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-flex items-center gap-2 rounded-xl bg-gold px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-gold/90"
+                >
+                  {service.externalLabel ?? "Poseti sajt"}
+                  <Icon name="arrowRight" size={16} />
+                </a>
+              </div>
+            )}
+
             {service.faqs.length > 0 && (
               <div className="mt-12">
                 <h2 className="font-display text-2xl font-bold">
