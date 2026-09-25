@@ -5,7 +5,8 @@ import { posts } from "@/lib/posts";
 import { locations, locationPath } from "@/lib/locations";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Fiksni datum poslednje veće izmene sadržaja (ažurirati pri izmenama) – ne "sada" pri svakom buildu
+  const now = new Date("2026-09-25");
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
