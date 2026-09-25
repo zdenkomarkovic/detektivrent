@@ -15,6 +15,18 @@ const nextConfig: NextConfig = {
     ],
   },
 
+  // privatni-detektiv.rs (bez www) → www.privatni-detektiv.rs (jedan kanonski host)
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "privatni-detektiv.rs" }],
+        destination: "https://www.privatni-detektiv.rs/:path*",
+        permanent: true,
+      },
+    ];
+  },
+
   // Headers za bolju sigurnost
   async headers() {
     return [

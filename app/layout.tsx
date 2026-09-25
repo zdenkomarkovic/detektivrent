@@ -47,7 +47,6 @@ export const metadata: Metadata = {
   authors: [{ name: site.name }],
   creator: site.name,
   publisher: site.name,
-  alternates: { canonical: "/" },
   category: "Detektivske usluge",
   openGraph: {
     type: "website",

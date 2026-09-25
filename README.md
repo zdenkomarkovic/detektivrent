@@ -15,7 +15,7 @@ npm run build && npm run start
 ## Konfiguracija (`.env.local`)
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://detektiv-marinkovic.rs   # ← promeniti na pravi domen
+NEXT_PUBLIC_SITE_URL=https://www.privatni-detektiv.rs   # ← promeniti na pravi domen
 NEXT_PUBLIC_SITE_NAME=Detektiv Marinković
 
 # Kontakt forma -> Mailjet Send API v3.1
